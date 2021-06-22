@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.login-left-panel {
+  display: none;
+  background: linear-gradient(rgba(95, 55, 55, 0.294), rgba(0, 0, 0, 0.452)),
+    url("../img/login-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.login-right-panel {
+  background-color: #f1f1f1;
+}
+.login-right-panel h4 {
+  font-size: 35px;
+}
